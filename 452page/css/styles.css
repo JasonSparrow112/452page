@@ -1,0 +1,64 @@
+.fter{
+    background-color: rgb(110, 77, 77);
+    /* background-color=rgb(110, 77, 77) */
+    height: 100px;
+    /* box height is 100px */
+}
+.word{
+    display: flex;
+    /* Make the projects side by side */
+    justify-content: center;
+    font-size: 16px;
+    /* font size=16 */
+    align-items: center;
+    /* Used for vertically aligning flex projects */
+}
+.boxshap{
+    background-color: aliceblue;
+    display: flex;
+    /* Make two boxes parallel */
+}
+.boxshap2{
+    background-color: aliceblue;
+    display:contents;
+    text-align: center;
+    /* Make the project horizontal and vertical */
+}
+.boxshap3{
+    background-color: aliceblue;
+    text-align: center;
+    /* Make two boxes parallel */
+}
+.box1{
+    margin:10px;
+    /* Margins of 10px */
+}
+.box2{
+    border-radius: 5%;
+}
+.box3{
+    width: 20%;
+    margin-left: auto;
+    margin-right: auto;
+}
+.box4{
+    margin-left: auto;
+    margin-right: auto;
+}
+.fontsenter{
+    justify-items: center;
+}
+.logo{
+    display: flex;
+    height: 20%;
+    width: 20%;
+}
+.pc1{
+    height: 40%;
+    width: 40%;
+}
+
+.pc3{
+    height: 80%;
+    width: 30%;
+}

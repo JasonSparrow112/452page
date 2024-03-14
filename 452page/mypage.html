@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html>
+ 
+<head>
+    <title>Building a Horizontal Navigation Bar</title>
+    <link href="css/styles.css" rel="stylesheet"/>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+        }
+ 
+        body {
+            font-family: 'Arial', sans-serif;
+        }
+ 
+        .navbar {
+            display: flex;
+            position: sticky;
+            align-items: center;
+            justify-content: space-between;
+            top: 0px;
+            background: rgba(0, 0, 0, 0.6) url(
+'https://media.geeksforgeeks.org/wp-content/uploads/20201215124609/Capture-300x14.PNG');
+            background-blend-mode: darken;
+            background-size: cover;
+            color: white;
+            padding: 10px 20px;
+        }
+ 
+        .nav-list {
+            display: flex;
+            list-style: none;
+        }
+ 
+        .nav-list li {
+            margin-right: 20px;
+        }
+ 
+        .nav-list li:last-child {
+            margin-right: 0;
+        }
+ 
+        .nav-list li a {
+            text-decoration: none;
+            color: white;
+            font-size: 18px;
+            transition: color 0.3s ease-in-out;
+        }
+ 
+        .nav-list li a:hover {
+            color: #ffd700;
+            /* Change the color on hover */
+        }
+ 
+        .rightNav {
+            text-align: right;
+        }
+ 
+        #search {
+            padding: 8px;
+            font-size: 16px;
+            border: 2px solid #fff;
+            border-radius: 5px;
+        }
+ 
+        .btn {
+            background-color: #ffd700;
+            color: #000;
+            border: none;
+            padding: 8px 12px;
+            border-radius: 5px;
+            cursor: pointer;
+            transition: background-color 0.3s ease-in-out;
+        }
+ 
+        .btn:hover {
+            background-color: #000;
+            /* Change the background color on hover */
+            color: #ffd700;
+        }
+    </style>
+</head>
+ 
+<body>
+    <nav class="navbar">
+        <ul class="nav-list">
+            <div class="logo">
+                <img src="pct\logo.png" alt="" class="pc1">
+            </div>
+            <li><a href="homepage.html">Homepage</a></li>
+            <li><a href="mypage.html">Mypage</a></li>
+            <li><a href="showpage.html">Showpage</a></li>
+        </ul>
+        <div class="rightNav">
+            <input type="text" name="search"
+                   id="search" placeholder="Search">
+            <button class="btn btn-sm">Search</button>
+        </div>
+    </nav>
+    <nav class="boxshap">
+        <div class="box3">
+            <h1>self-introduction</h1>
+            <img src="pct\self.jpg" alt="" class="pc3">
+        </div>
+        <div class="box2">
+            <h4>Student Form 21IT1</h2>
+            <br>
+            <br>
+            <p>23-year-old web developer, new hardware researcher, Jason Sparrow, Chinese name Jiang Qianjing.</p>
+            <p>1.Hobbies of reading, outdoor sports, swordsmanship and fighting</p>
+            <p>2.Researching website development and Arduino programming</p>
+            <p>3.A very enthusiastic young person</p>
+        </div>
+    </nav>
+</body>
+<footer class="py-5 bg-dark">
+    <div class="fter"><p class="word">JasonSprrow 21IT1 (Jiang Qianjing)</p></div>
+</footer>
+</html>
